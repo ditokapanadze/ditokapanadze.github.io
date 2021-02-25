@@ -73,7 +73,7 @@ nav ul{
 }
 .body-flex img{
     display: block;
-    width: 58.3%;
+    /* width: 58.3%; */
     height: 41.667vw ;
 }
 .world-news{
@@ -429,7 +429,7 @@ footer{
 }
 
 .footer-logo{
-    color: #CBD0D3;
+    color: white;
 }
 .footer-left ul{
     
@@ -452,7 +452,7 @@ footer{
     margin-top: 0;
     display: flex;
     width: 11.11vw;
-    background-color: red;
+    
     justify-content: space-between ;
 }
 
@@ -495,4 +495,9 @@ form{
     color: white;
     
 }
-.social-icons
+
+@media (max-width: 2000px){
+    .logo{
+        color: blue;
+    }
+}
