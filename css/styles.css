@@ -36,8 +36,7 @@ nav{
     align-items: center;
 }
 nav ul li a{
-    font-size: 0.764vw
-    ;
+    font-size: 0.764vw;
     margin-right: 22px;
     color: #343638;
     opacity: 0.5;
@@ -69,12 +68,15 @@ nav ul{
    background-color:white;
    padding: 0;
    
+   
   
 }
 .body-flex img{
     display: block;
     /* width: 58.3%; */
     height: 41.667vw ;
+    
+   
 }
 .world-news{
     width: 41.66%;
@@ -174,7 +176,7 @@ nav ul{
 
 
 .news-section{
-   
+   background-color: white;
     height: 66.6%;
     width: 63.3%;
     margin-left: 16.6%;
@@ -191,6 +193,9 @@ nav ul{
    
     width: 100%;
     height: 42.5%;
+}
+.news-subtitle{
+    display: none;
 }
 .technology{
     
@@ -306,6 +311,7 @@ p { margin:10px }
 .large-articles{
     width: 65.5%;
     height: 62.500vw;
+   
     
 }
 
@@ -496,5 +502,259 @@ form{
     
 }
 
+@media (max-width: 1250px){
+   nav ul li a{
+      
+       
+   }
+   .travel-preview{
+        color: #A6ADB4;
+        font-size: 1.2vw;
+    }
+    .trending-card-title{
+        font-size: 1.4vw;
+    }
+    .trending-article-preview{
+        font-size: 1.2vw;
+    }
+    .large-article-preview{
+        font-size: 1.3vw;
+    }
+    .small-card-title{
+        font-size: 1.3vw;
+    }
+    .footer-left ul a{
+        
+        font-size: 1.1vw !important;
+    }
+}
+@media (max-width: 1050px){
+    .fa-paper-plane{
+        right: 15%;
+    }
+}
 
 
+
+@media (max-width: 1025px){
+    .logo{
+        font-size: 1.693vw;
+        margin-bottom: 0px;
+    }
+    nav ul li a{
+        
+        font-size: 1.432vw;
+    }
+    .avatar{
+        height: 3.906vw;
+    }
+    header{
+        height: 6.510vw;
+    }
+    .body-flex{
+        margin-top: 0px;
+        flex-direction: column;
+        /*  */
+    }
+    .body-flex img{
+       width: 100%;
+       overflow:hidden;
+      height: 52.083vw;
+      overflow:hidden;
+       object-fit: cover;
+       
+       margin:0px;
+       padding: 0px;
+
+      }
+      .world-news{
+          
+          left: 10.417vw;
+          top: 18.099vw;
+          width: 79.167vw;
+          height: 31.120vw;
+      }
+      .world-news-header{
+          height: 7.422vw;
+      }
+      .world-news-article{
+          height: 9.896vw;
+          
+      }
+      .world-news-title p{
+          font-size: 3.125vw;
+      }
+      
+      .world-news-button{
+          height: 5.208vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .world-news-button p{
+          font-size: 1.432vw;
+      }
+      .world-news-article-preview p{
+          height: 5.599vw;
+          
+          font-size: 2.083vw;
+          line-height: 3vw;
+      }
+
+
+      .world-news-header p{
+          font-size: 3.125vw;
+      }
+
+
+      .article-card{
+          
+          width: 100%;
+          height: 44.661vw;
+
+      }
+      .nesw-slider{
+          height: 7.813vw;
+          font-size: 3.125vw;
+      }
+     
+      
+      .news-section{
+       width: 79.167vw;
+       margin-left: 10.417vw;
+       
+     }
+     .card-flex{
+         display: flex;
+     }
+     .travel-card p{
+         font-size: 2.083vw;
+         margin-left: 0px;
+         margin-bottom: 5px;
+     }
+     .news-subtitle{
+         display: inline-block;
+         
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+     .article-title{
+         display: none;
+     }
+     .travel-preview{
+         font-size: 2.083vw;
+         margin-top: 0px;
+     }
+     .added-time{
+         margin-left: 0px;
+         font-size: 1.693vw;
+     }
+     .trending-box{
+        
+         margin-top: 5.208vw;
+         width: 79.167vw;
+         height: 53.776vw;
+     }
+     .trending-box p:first-child{
+         font-size: 3.125vw;
+         margin-bottom: 4.948vw;
+     }
+
+     .main-content{
+         margin-top: 5.208vw;
+         width: 79.167vw;
+         height: 161.719vw;
+         
+        
+     }
+     .main-title{
+         font-size: 3.125vw;
+         margin-bottom: 4.688vw;
+    }
+    .main-flex{
+        flex-direction: column;
+    }
+    .large-articles{
+        
+       width: 100%;
+       height: auto;
+    }
+    .large-card{
+        
+        height: auto;
+        margin-bottom: 5.208vw;
+        
+    }
+    .small-articles{
+        
+        display: flex;
+    }
+    .box-title{
+        font-size: 2.083vw;
+    }
+    .larg-article-box{
+        
+        width: 68.750vw;
+        height: 45.573vw;
+        left: 5.208vw;
+        top: 5.208vw;
+    }
+    .large-article-title{
+        font-size: 3.125vw;
+    }
+    .large-article-content{
+        
+        height: 13.802vw;
+    }
+    .large-article-preview{
+        font-size: 2.083vw;
+        margin-top: 1.302vw;
+        margin-bottom:1.302vw ;
+        ;
+        height: 6.120vw;
+        line-height: 20px;
+    }
+    .large-article-time{
+        
+        height: 4vw;
+        font-size: 1.693vw;
+        padding-top: 10px;
+    }
+    .large-articles img{
+        height: 55.990vw;
+    }
+    footer{
+        height: 41.146vw;
+        flex-wrap: wrap;
+    }
+    .footer-left{
+        height: 10.938vw;
+        width: 75vw;
+        
+    }
+    .footer-logo{
+        width: 42.188vw;
+        font-size: 1.693vw;
+    }
+    .footer-left ul a{
+        font-size: 1.693vw;
+    }
+    .footer-right{
+        
+        width: 79.167vw;
+        margin-left: 10.417vw;
+        height: 8.594vw
+        ;
+    }
+    .footer-right input{
+        width: 36.979vw;
+        height: 5.208vw;
+    }
+    .social-icons{
+        margin-top: 6.510vw;
+    }
+    .fa-paper-plane{
+        top: 15px;
+        right: 20px;
+    }
+}
