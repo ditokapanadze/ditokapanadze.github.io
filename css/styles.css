@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ a {
 ul{
     list-style: none;
 }
-.mobile-nav{
+.burger{
    display: none;
 }
 
@@ -1044,7 +1045,7 @@ form{
       header{
           height: 23.467vw;
       }
-      .mobile-nav{
+      .burger{
           margin-top: 9vw;
           display: block;
           height: 3.733vw;
@@ -1061,7 +1062,7 @@ form{
           width: 10.133vw;
           margin-top: 9vw;
           font-size: 3.467vw;
-          color: #A6ADB4;
+          color :#FA6980;
       }
       .avatar{
         margin-top: 9vw;
@@ -1339,3 +1340,128 @@ form{
       display: none;
   }
 }
+
+
+
+
+body{
+    overflow-x: hidden;
+} 
+
+ .deactivate{
+    display: none;
+} 
+    .mobile-nav-hidden{
+       display: block;
+       width: 76.533vw;
+       height: 216.533vw;
+       position: absolute;
+       background-color: #F6F8F9;
+       top: 0px ;
+       transform: translateX(-100%);
+       transition: 0.5s ease-in-out;
+       z-index: 1;
+      
+   }
+   .mobile-nav-active{
+    box-shadow: 0px 0px 60px #00000099;
+    transform: translateX(0%);
+}
+
+
+   .mobile-nav-links{
+       height: 502px;
+     
+       
+   }
+   .mobile-nav-logo{
+       margin-left: 10.667vw;
+       padding-top: 38px;
+       color: #FA6980;
+       font-size: 13px;
+       font-weight: bold;
+   }
+    
+   .mobile-nav-icons{
+      margin-right: 8vw;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      color: white;
+      opacity: 1;
+   }
+
+   .mobile-nav-links ul{
+       margin-top: 22vw;
+   }  
+
+   .mobile-nav-links ul li a img{
+    background-color: #F6F8F9;
+    margin-right: 30px;
+}
+   .mobile-nav-links ul li a{
+       display: flex;
+       color: #343638;
+        opacity: 0.5;
+       align-items: center;
+       font-weight: bold;
+   }
+  
+   .mobile-nav-links ul li a:hover{
+       opacity: 1 ;
+   }
+
+   .mobile-nav-links ul li{
+     
+     
+       margin-bottom: 10vw;
+       font-size: 2.933vw;
+       font-weight: bold;
+   }
+  .mobile-nav-footer{
+      height: 310px;
+      background: #000000;
+       opacity: 0.23;
+       display: flex;
+      
+  }
+   .mobile-nav-footer a{
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 2.933vw;
+    margin-bottom: 20px;
+    
+  }
+   
+   .mobile-nav-footer ul{
+      margin-top: 58px;
+  } 
+
+   .mobile-nav-footer ul li{
+      margin-bottom: 24px;
+  }
+   
+
+ .mobile-footer-icons{
+    display: flex;
+    margin-left: -140px;
+ 
+    
+} 
+
+.mobile-footer-icons a{
+    color: white !important;
+    opacity: 1;
+} 
+ .fab{
+    font-size:16px;
+    color: white;
+} 
+ .fas{
+    font-size:16px;
+} 
+ .mobile-footer-icons li{
+    margin-right: 20px;
+}
+   
+
+ 
+
