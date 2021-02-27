@@ -87,6 +87,7 @@ const swiper = new Swiper('.swiper-container', {
         if (Math.abs(move_x) > min_horizontal_move && Math.abs(move_y) < max_vertical_move && elapsed_time < within_ms) {
             if (move_x < 0) {
               swipeMenu.classList.toggle('mobile-nav-hidden')
+              console.log("mushaobs")
             } else {
                 //alert("right");
             }
@@ -94,8 +95,8 @@ const swiper = new Swiper('.swiper-container', {
     }
  
     var swipeMenu = document.querySelector('.mobile-nav-active');
-    content.addEventListener('touchstart', touch_start);
-    content.addEventListener('touchend', touch_end);
+    swipeMenu.addEventListener('touchstart', touch_start);
+    swipeMenu.addEventListener('touchend', touch_end);
 
 
 
