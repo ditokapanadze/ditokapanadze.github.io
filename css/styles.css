@@ -1054,6 +1054,7 @@ form{
           height: 3.733vw;
           width: 4.267vw;
          margin-left: 16px;
+         cursor: pointer;
       }
       .mobile-menu{
           display: block;
@@ -1357,7 +1358,7 @@ body{
     .mobile-nav-hidden{
        display: block;
        width: 76.533vw;
-       height: 216.533vw;
+       height: 812px;
        position: absolute;
        background-color: #F6F8F9;
        top: 0px ;
@@ -1424,7 +1425,7 @@ body{
       background: #000000;
        opacity: 0.23;
        display: flex;
-      
+      justify-content: space-between;
   }
    .mobile-nav-footer a{
     color: #FFFFFF;
@@ -1445,11 +1446,18 @@ body{
 
  .mobile-footer-icons{
     display: flex;
-    margin-left: -140px;
- 
+    margin-left: -250px;
     
+   margin-top: 10px;
+    align-items: center;
+   margin-right: 100vw;
+
 } 
 
+
+.mobile-footer-icons li{
+    margin-top: 35vw;
+}
 .mobile-footer-icons a{
     color: white !important;
     opacity: 1;

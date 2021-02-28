@@ -6,6 +6,9 @@
     margin-top: 2.083vw;
     margin-left: 9.722vw;
 }
+.world-news-left-mobile{
+    display: none;
+}
 .world-news-head{
     
     display: flex;
@@ -240,10 +243,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       display: none;
   }
   .bottom-text{
-      display: none;
+      display: none !important;
   } 
-
-  
+ 
+  .pages{
+      display: none;
+  }
+  .elmobile{
+      display: none;
+  }
   @media (max-width: 1200px){
        .world-news-left p{
            font-size: 1vw;
@@ -329,6 +337,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
   
 }
+
+.mobile-text{
+    display: none;
+}
 /* @media (max-width: 780px){
 
     .world-form form{
@@ -371,7 +383,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .world-news-container{
         width: 79.167vw;
        height: 104.167vw;
-       background-color: turquoise;
+       
        display: flex;
        flex-direction: column;
        margin-bottom: 12vw;
@@ -517,3 +529,177 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
    }
 }
+
+
+
+/*  mobile */
+
+@media (max-width: 376px){
+    header{
+        display: none;
+    }
+    .world-news-head{
+        height: 44px;
+    }
+    .world-news-left{
+        display: none;
+    }
+    .filter{
+        display: none;
+    }
+    .world-news-container{
+        height: 180.133vw;
+        width: 100%;
+        margin-left: 0px;
+       margin-bottom: 20vw;
+    }
+    .world-flex{
+       
+        height: 100%;
+        justify-content: space-between;
+    }
+    .world-background{
+        height: 103.467vw;
+      
+        object-fit: fill;
+        width: 100%;
+        
+    }
+
+    .world-background img{
+     height: 388  !important;
+    }
+   
+    .world-news-left-mobile{
+        display: block;
+        margin-left: 16px;
+    }
+    .filter-mobile{
+        margin-right: 16px;
+    }
+    .world-form{ 
+        margin-top: 10px;
+        height: 100.933vw;
+        width: 100%;
+       
+    }
+
+    .world-form form{
+        margin-top: 10.667vw  !important;
+        width: 87.200vw;
+        height: 65.600vw;
+        margin-left: 24px;
+    }
+    .world-form form p{
+        font-size: 3.467vw
+        ;
+    }
+    .world-form input{
+        height: 10.667vw;
+        margin-bottom:  8vw;
+    }
+    .world-form form button{
+        height:  10.667vw;
+        width: 40.267vw;
+        font-size: 2.933vw;
+
+    }
+    .world-form form button span{
+        display: none;
+    }
+    .world-news-cad{
+        display: block;
+       
+        width: 87.200vw ;
+        height: 55.200vw
+        ;
+    }
+    .world-news-cad p:first-child{
+        font-size: 8.267vw;
+    }
+    .world-news-cad-preview{
+        
+        width: 100%;
+        height: 15vw;
+        margin-left: 0px;
+        font-size: 4.267vw !important;
+        text-align: center;
+        margin-top: 10vw;
+        line-height: 8vw;
+    }
+    .world-news-cad img{
+      height: 10.667vw;
+      margin-left: 40vw;
+    }
+    .world-news-cad p:first-child::before{
+        width: 10.667vw;
+        top: 17vw;
+        left: 40vw;
+    }
+    .mobile-text{
+        display: block;
+    }
+    .middle-section{
+        margin-top: 10vw;
+      
+        height: 160vw;
+        flex-direction: column;
+        width: 87.200vw;
+        margin-left: 6.400vw;
+    }
+    .middle-section-box{
+        height: 53.867vw
+        ;
+        
+        width: 87.200vw;
+        font-size: 3.733vw !important;
+        line-height: 6vw !important;
+        
+    }
+    .middle-section-box:first-child{
+        
+        height: 43.200vw;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .middle-section-box p{
+        font-size: 6.400vw;
+        width: 100%;
+        line-height: 8vw;
+        
+    }
+    .middle-section-box span{
+       line-height: 20vw !important;
+        font-size: 3.733vw !important;
+    }
+
+    .bottom-article{
+        margin-top: 10vw;
+       width: 87.200vw;
+       margin-left: 6.400vw;
+       height: 200.267vw;
+       
+       margin-bottom: 40px;
+    }
+    .bottom-article img:first-child{
+       display: none;
+    }
+    .elmobile{
+        display: block;
+    }
+    .bottom-article p{
+        margin-top: 10px !important;
+        height: 120vw;
+       
+        font-size: 3.733vw;
+        line-height: 5vw;
+    }
+  .bottom-text{
+      display: block !important;
+      height: 100px !important;
+      line-height: 8vw !important;
+  }
+   .pages{
+       display: block !important;
+   }
+} 
