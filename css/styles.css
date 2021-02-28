@@ -677,7 +677,7 @@ form{
 
 @media (max-width: 1250px){
    nav ul li a{
-      
+      font-size: 1vw;
        
    }
    .travel-preview{
@@ -700,10 +700,11 @@ form{
         
         font-size: 1.1vw !important;
     }
-
-
-
 }
+
+
+
+
 @media (max-width: 1050px){
     .fa-paper-plane{
         right: 15%;
@@ -891,13 +892,14 @@ form{
          margin-bottom: 4vw;
          font-weight: bold;
      }
-.swiper-button-prev{
-    margin-left: -3vw;
-  
-}
-.swiper-button-next{
-    margin-left: 20px;
-}
+      .swiper-button-prev{
+            margin-left: -3vw;
+            top: 8vw;
+     }
+      .swiper-button-next{
+             margin-left: 20px;
+             top: 8vw;
+    }
      .main-content{
          
          width: 79.167vw;
@@ -907,10 +909,10 @@ form{
          font-size: 3.125vw;
          margin-bottom: 4.688vw;
     }
-    .main-flex{
+     .main-flex{
         flex-direction: column;
     }
-    .large-articles{
+     .large-articles{
         
        width: 100%;
        height: auto;
@@ -1011,7 +1013,8 @@ form{
         font-size: 1.693vw;
     }
     .footer-left ul a{
-        font-size: 1.693vw;
+        font-size: 13px  !important;
+        font-weight: bold;
     }
     .footer-right{
         
@@ -1462,6 +1465,4 @@ body{
     margin-right: 20px;
 }
    
-
- 
 

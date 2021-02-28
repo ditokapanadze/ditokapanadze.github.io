@@ -86,6 +86,9 @@ const swiper = new Swiper('.swiper-container', {
     }
  
  
+
+// swipe mobile menu
+
     function touch_end(event) {
         var end_xPos = event.changedTouches[0].pageX;
         var end_yPos = event.changedTouches[0].pageY;
@@ -101,27 +104,18 @@ const swiper = new Swiper('.swiper-container', {
       main.classList.toggle('deactivate')
       worldNews.classList.toggle('deactivate')
       deactivate.classList.toggle('deactivate', )
-            } else {
-                //alert("right");
-            }
+            } 
         }
     }
  
     var swipeMenu = document.querySelector('.mobile-nav-hidden');
     swipeMenu.addEventListener('touchstart', touch_start);
     swipeMenu.addEventListener('touchend', touch_end);
-
-
-    swipeMenu.addEventListener('click', ()=>{
-      console.log("asd")
-    })
-
-
-    
-
-  }
+}
   
+// add active class to page buttons
 
 
 
+  activeButton()
   mobileNav()
