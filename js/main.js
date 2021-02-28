@@ -59,7 +59,7 @@ const swiper = new Swiper('.swiper-container', {
 
     })
 
-    const activeMenu =document.querySelector('.mobile-nav-active')
+    
     const home = document.querySelector('.home')
       home.addEventListener('click', () =>{
        nav.classList.toggle('mobile-nav-active')
@@ -93,7 +93,8 @@ const swiper = new Swiper('.swiper-container', {
           let elapsed_time = end_time - start_time;
           if (Math.abs(move_x) > min_horizontal_move && Math.abs(move_y) < max_vertical_move && elapsed_time < within_ms) {
               if (move_x < 0) 
-              {nav.classList.toggle('mobile-nav-active')
+              {
+                nav.classList.toggle('mobile-nav-active')
               bodyFlex.classList.toggle('deactivate')
               swiper.classList.toggle('deactivate')
               main.classList.toggle('deactivate')
@@ -103,12 +104,14 @@ const swiper = new Swiper('.swiper-container', {
                 }
             }
  
+
+            const swipeMenu =document.querySelector('.mobile-nav-hidden')
             swipeMenu.addEventListener('touchstart', touch_start);
             swipeMenu.addEventListener('touchend', touch_end);
         
         
             swipeMenu.addEventListener('click', ()=>{
-              console.log("asd")
+              console.log("test")
             })
           }
 
